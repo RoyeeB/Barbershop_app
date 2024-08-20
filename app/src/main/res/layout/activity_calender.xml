@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background_color">
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/back_BTN_cal"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_arrow_back"
+        android:textSize="20sp"
+        android:backgroundTint="#999DA0" />
+    <TextView
+        android:id="@+id/calendar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select a Date"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp" />
+
+
+    <CalendarView
+        android:id="@+id/calendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:dateTextAppearance="@style/TextAppearance.AppCompat.Large"
+        android:weekDayTextAppearance="@style/TextAppearance.AppCompat.Small"
+        android:firstDayOfWeek="1"
+        android:paddingBottom="16dp"
+        />
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/show_BTN_times"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:text="Show Available Times"
+        android:backgroundTint="@color/black"
+        />
+
+</LinearLayout>

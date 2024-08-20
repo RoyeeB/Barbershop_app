@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_color"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/title_LBL_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text=" " />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/schedule_BTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_LBL_menu"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="50dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:text="Schedule New Appointment"
+        android:backgroundTint="@color/black"
+        />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/address_BTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schedule_BTN"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:text="Barbershop Address"
+        android:backgroundTint="@color/black"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/paymentmethod_BTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/address_BTN"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:text="Add Payment Method"
+        android:backgroundTint="@color/black"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/pricelist_BTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/paymentmethod_BTN"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:text="Price List"
+        android:backgroundTint="@color/black"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/myacc_BTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pricelist_BTN"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:text="My Account"
+        android:backgroundTint="@color/black"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/signout_BTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/myacc_BTN"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:text="Sign Out"
+        android:backgroundTint="@color/black"
+        />
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="23sp"
+        android:textStyle="bold|italic"
+
+        android:layout_below="@+id/signout_BTN"
+        android:textColor="@color/black"
+        android:text="Opening discount - free tenth haircut"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "93684941787",
+    "project_id": "brabershoppro-proj",
+    "storage_bucket": "brabershoppro-proj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93684941787:android:6f393a07791d6e9fa9ddfe",
+        "android_client_info": {
+          "package_name": "com.example.final_project_barbershop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6HK1TOL0ENixyF6_DhoYZHXxpU1kEE2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

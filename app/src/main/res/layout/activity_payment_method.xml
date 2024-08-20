@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_color"
+        />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/back_BTN_paymentmethod"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20sp"
+        android:src="@drawable/ic_arrow_back"
+        android:scaleType="fitCenter"
+        android:backgroundTint="#999DA0"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/title_LBL_paymentmethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Add Paymentmethod" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/id_LBL_paymentmethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_LBL_paymentmethod"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="ID"
+
+        />
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/id_EDT_paymentmethod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_LBL_paymentmethod"
+        android:layout_alignStart="@+id/id_LBL_paymentmethod"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Enter Your ID"
+        android:padding="8dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:imeOptions="actionNext"
+        android:inputType="number"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/cardNumber_LBL_paymentmethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_EDT_paymentmethod"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Card Number"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/cardNumber_EDT_paymentmethod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:layout_alignStart="@+id/cardNumber_LBL_paymentmethod"
+        android:hint="Enter Card Number"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:layout_below="@id/cardNumber_LBL_paymentmethod"
+        android:background="@drawable/rounded_edittext"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:imeOptions="actionNext"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/cvv_LBL_paymentmethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardNumber_EDT_paymentmethod"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="CVV"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/cvv_EDT_paymentmethod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cvv_LBL_paymentmethod"
+        android:layout_alignStart="@+id/cvv_LBL_paymentmethod"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Enter CVV Code"
+        android:padding="8dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:imeOptions="actionNext"
+        android:inputType="textPassword"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/expiryDate_LBL_paymentmethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cvv_EDT_paymentmethod"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Expiry Date"
+
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/expiryDate_EDT_paymentmethod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:layout_alignStart="@+id/expiryDate_LBL_paymentmethod"
+        android:hint=" MM/YY"
+        android:layout_below="@+id/expiryDate_LBL_paymentmethod"
+        android:background="@drawable/rounded_edittext"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:textSize="20sp"
+        android:inputType="date"
+        android:imeOptions="actionDone"
+       />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/save_BTN_paymentmetod"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/expiryDate_EDT_paymentmethod"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:text="Save"
+        android:backgroundTint="@color/black"
+        />
+
+</RelativeLayout>

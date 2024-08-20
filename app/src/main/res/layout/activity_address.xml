@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color">
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/back_BTN_address"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_arrow_back"
+        android:textSize="20sp"
+        android:backgroundTint="@color/background_color" />
+
+    <TextView
+        android:id="@+id/tital_LBL_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/back_BTN_address"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text=" Barbershop Address "
+        android:textSize="40sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/address_LBL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/tital_LBL_address"
+        android:text=" Kislev 23, Modiin, Israel"
+        android:textSize="30sp"
+        android:textColor="@color/black"/>
+    />
+
+
+    <FrameLayout
+        android:id="@+id/frameMap"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/address_LBL"
+        >
+
+    </FrameLayout>
+
+</RelativeLayout>
