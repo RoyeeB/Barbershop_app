@@ -26,3 +26,7 @@ https://drive.google.com/drive/folders/1y1lzikDCkk2MHXiLXwd-kytreX6FnogG?usp=sha
 ![image](https://github.com/user-attachments/assets/663ca659-c2d2-4086-ba9e-1d34127587b0)
 ![image](https://github.com/user-attachments/assets/31bab9eb-0e99-43c6-bbfe-5dff11fa6a62)
 ![image](https://github.com/user-attachments/assets/de2b0777-a581-40cb-b6ea-d0436fdd4d81)
+
+
+link for a video of the application:
+https://drive.google.com/file/d/1EERQqLIo3J5i289tTxpL7ftra071gXeF/view?usp=drive_link
