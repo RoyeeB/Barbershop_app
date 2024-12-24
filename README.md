@@ -28,5 +28,3 @@ https://drive.google.com/drive/folders/1y1lzikDCkk2MHXiLXwd-kytreX6FnogG?usp=sha
 ![image](https://github.com/user-attachments/assets/de2b0777-a581-40cb-b6ea-d0436fdd4d81)
 
 
-link for a video of the application:
-https://drive.google.com/file/d/1EERQqLIo3J5i289tTxpL7ftra071gXeF/view?usp=drive_link
