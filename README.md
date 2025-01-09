@@ -1,4 +1,5 @@
 Welcome to BarberShop Pro!✂️
+
 Barbershop Pro is a cutting-edge application designed specifically for barbers and their clients. With Barbershop Pro, barbers can effortlessly manage their appointment schedules, ensuring an organized and efficient workflow. The app allows barbers to set available time slots, handle cancellations, and even receive real-time updates on their bookings.
 
 For clients, Barbershop Pro offers a seamless booking experience. Users can easily view available time slots, schedule their appointments, and even rate their experience. The app ensures that clients can book their preferred time with ease, without the hassle of phone calls or waiting.
